@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center horizontally */
+    height: 100vh;
+    background: #3F2305;
+}
+
+h2{
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #DFD7BF;
+}
+
+#size{
+   height: 5vh;
+   width: 23vw;
+}
+
+#qrtext{
+    height: 10vh;
+    width: 23vw;
+    padding: 5px;
+    resize: none;
+    
+}
+
+
+
+.btn{
+    height: 4vh;
+    width: 23vw;
+    background-color: #DFD7BF;
+    text-transform: uppercase;
+}
